@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIView+ExtendRegion.h"
+#import "BMNavigationBarHeader.h"
 
 @interface ViewController ()
 
@@ -16,14 +18,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CGFloat width = CGRectGetWidth(self.view.frame);
+    
+    UIView *navigationBarView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, width - NavigationBarTitleViewMargin * 2, 44)];
+    navigationBarView.backgroundColor = [UIColor orangeColor];
+    navigationBarView.extendRegionType = ClickExtendRegion;
+    self.navigationItem.titleView = navigationBarView;
+    
+    UIButton *leftButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    leftButton.backgroundColor = [UIColor blueColor];
+    leftButton.frame = CGRectMake(- NavigationBarTitleViewMargin, 0, 60, 44);
+    leftButton.tag = 0;
+    [leftButton addTarget: self action: @selector(click:) forControlEvents: UIControlEventTouchUpInside];
+    [navigationBarView addSubview: leftButton];
+    
+    UIButton *rightButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    rightButton.backgroundColor = [UIColor blueColor];
+    rightButton.frame = CGRectMake(navigationBarView.frame.size.width + NavigationBarTitleViewMargin - 60, 0, 60, 44);
+    rightButton.tag = 1;
+    [rightButton addTarget: self action: @selector(click:) forControlEvents: UIControlEventTouchUpInside];
+    [navigationBarView addSubview: rightButton];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)click: (UIButton *)button {
+    if (button.tag == 0) {
+        NSLog(@"点击了左按钮");
+    } else {
+        NSLog(@"点击了右按钮");
+    }
 }
-
 
 @end
