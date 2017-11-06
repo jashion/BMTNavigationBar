@@ -27,6 +27,9 @@
 
 - (UIView *)bm_hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     UIView *hitView = [self bm_hitTest: point withEvent: event];
+    if (self.extendRegionType == DefaultExtendRegion) {
+        return hitView;
+    }
     if (self.extendRegionType == ClickExtendRegion) {
         if (!hitView) {
             for (UIView *subView in self.subviews) {

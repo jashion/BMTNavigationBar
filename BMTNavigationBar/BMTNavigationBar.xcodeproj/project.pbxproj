@@ -14,6 +14,7 @@
 		9E2CE8971F5A4FB700830DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8961F5A4FB700830DC8 /* Assets.xcassets */; };
 		9E2CE89A1F5A4FB700830DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8981F5A4FB700830DC8 /* LaunchScreen.storyboard */; };
 		9E2CE8AB1F5A542000830DC8 /* UIView+ExtendRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CE8AA1F5A542000830DC8 /* UIView+ExtendRegion.m */; };
+		9E41A3091FAFF54B003A8F78 /* BMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E41A3081FAFF54B003A8F78 /* BMNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9E2CE89B1F5A4FB700830DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E2CE8A91F5A542000830DC8 /* UIView+ExtendRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtendRegion.h"; sourceTree = "<group>"; };
 		9E2CE8AA1F5A542000830DC8 /* UIView+ExtendRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtendRegion.m"; sourceTree = "<group>"; };
+		9E41A3071FAFF54B003A8F78 /* BMNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMNavigationBar.h; sourceTree = "<group>"; };
+		9E41A3081FAFF54B003A8F78 /* BMNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMNavigationBar.m; sourceTree = "<group>"; };
 		9EA2DC771F5A5D1100E7E0C3 /* BMNavigationBarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMNavigationBarHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +76,8 @@
 				9E2CE8981F5A4FB700830DC8 /* LaunchScreen.storyboard */,
 				9E2CE89B1F5A4FB700830DC8 /* Info.plist */,
 				9E2CE88A1F5A4FB700830DC8 /* Supporting Files */,
+				9E41A3071FAFF54B003A8F78 /* BMNavigationBar.h */,
+				9E41A3081FAFF54B003A8F78 /* BMNavigationBar.m */,
 			);
 			path = BMTNavigationBar;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 				9E2CE8921F5A4FB700830DC8 /* ViewController.m in Sources */,
 				9E2CE88F1F5A4FB700830DC8 /* AppDelegate.m in Sources */,
 				9E2CE88C1F5A4FB700830DC8 /* main.m in Sources */,
+				9E41A3091FAFF54B003A8F78 /* BMNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
