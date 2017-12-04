@@ -27,11 +27,12 @@
 
 - (UIView *)bm_hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     UIView *hitView = [self bm_hitTest: point withEvent: event];
-    if (self.extendRegionType == DefaultExtendRegion) {
+    if (hitView) {
         return hitView;
     }
-    if (self.extendRegionType == ClickExtendRegion) {
-        if (!hitView) {
+    if (!hitView) {
+        if (self.extendRegionType == ExtendClickedRegion) {
+            //普通类型扩展
             for (UIView *subView in self.subviews) {
                 CGPoint newPoint = [subView convertPoint: point fromView: self];
                 if (CGRectContainsPoint(subView.bounds, newPoint)) {
@@ -39,9 +40,8 @@
                 }
             }
         }
-    }
-    if (isIOS11) {
-        if (!hitView && [NSStringFromClass([self class]) isEqualToString: @"_UITAMICAdaptorView"]) {
+        if ([NSStringFromClass([self class]) isEqualToString: @"_UITAMICAdaptorView"]) {
+            //iOS11 导航栏的_UITAMICAdaptorView类
             for (UIView *subview in self.subviews) {
                 if (subview.subviews > 0) {
                     for (UIView *item in subview.subviews) {

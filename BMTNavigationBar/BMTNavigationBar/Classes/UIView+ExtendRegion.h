@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger, ExtendRegionType) {
-    DefaultExtendRegion             =   0,
-    ClickExtendRegion               =   1
+    DefaultExtendRegion      =   0,
+    ExtendClickedRegion      =   1
 };
 
 @interface UIView (ExtendRegion)

@@ -9,7 +9,7 @@
 #ifndef BMNavigationBarHeader_h
 #define BMNavigationBarHeader_h
 
-#define isIOS11 [[UIDevice currentDevice].systemVersion floatValue] >= 11
+#define isIOS11 ([[UIDevice currentDevice].systemVersion floatValue] >= 11)
 
 /**
  导航栏titleView尽可能充满屏幕，余留的边距

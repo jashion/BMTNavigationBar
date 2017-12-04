@@ -22,7 +22,7 @@
 - (instancetype)init {
     self = [super initWithFrame: CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width - NavigationBarTitleViewMargin * 2, 44)];
     if (self) {
-        self.extendRegionType = ClickExtendRegion;
+        self.extendRegionType = ExtendClickedRegion;
     }
     return self;
 }
@@ -33,7 +33,7 @@
         if (self.buttonType & LeftButtonType && !self.leftButton.superview) {
             self.leftButton = [UIButton buttonWithType: UIButtonTypeCustom];
             self.leftButton.backgroundColor = [UIColor blueColor];
-            self.leftButton.frame = CGRectMake(- NavigationBarTitleViewMargin, 0, 60, 44);
+            self.leftButton.frame = CGRectMake(- NavigationBarTitleViewMargin, 0, 60, 44);;
             self.leftButton.tag = 0;
             [self.leftButton addTarget: self action: @selector(handleLeftButtonEvent:) forControlEvents: UIControlEventTouchUpInside];
             [self addSubview: self.leftButton];

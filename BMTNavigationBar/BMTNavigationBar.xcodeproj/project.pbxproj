@@ -13,8 +13,8 @@
 		9E2CE8951F5A4FB700830DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8931F5A4FB700830DC8 /* Main.storyboard */; };
 		9E2CE8971F5A4FB700830DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8961F5A4FB700830DC8 /* Assets.xcassets */; };
 		9E2CE89A1F5A4FB700830DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8981F5A4FB700830DC8 /* LaunchScreen.storyboard */; };
-		9E2CE8AB1F5A542000830DC8 /* UIView+ExtendRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CE8AA1F5A542000830DC8 /* UIView+ExtendRegion.m */; };
-		9E41A3091FAFF54B003A8F78 /* BMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E41A3081FAFF54B003A8F78 /* BMNavigationBar.m */; };
+		9ED07ACE1FD4E808007223BA /* UIView+ExtendRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED07ACB1FD4E808007223BA /* UIView+ExtendRegion.m */; };
+		9ED07ACF1FD4E808007223BA /* BMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED07ACC1FD4E808007223BA /* BMNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +28,11 @@
 		9E2CE8961F5A4FB700830DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E2CE8991F5A4FB700830DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E2CE89B1F5A4FB700830DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E2CE8A91F5A542000830DC8 /* UIView+ExtendRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtendRegion.h"; sourceTree = "<group>"; };
-		9E2CE8AA1F5A542000830DC8 /* UIView+ExtendRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtendRegion.m"; sourceTree = "<group>"; };
-		9E41A3071FAFF54B003A8F78 /* BMNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMNavigationBar.h; sourceTree = "<group>"; };
-		9E41A3081FAFF54B003A8F78 /* BMNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMNavigationBar.m; sourceTree = "<group>"; };
-		9EA2DC771F5A5D1100E7E0C3 /* BMNavigationBarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMNavigationBarHeader.h; sourceTree = "<group>"; };
+		9ED07AC91FD4E808007223BA /* BMNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationBar.h; sourceTree = "<group>"; };
+		9ED07ACA1FD4E808007223BA /* BMNavigationBarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationBarHeader.h; sourceTree = "<group>"; };
+		9ED07ACB1FD4E808007223BA /* UIView+ExtendRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtendRegion.m"; sourceTree = "<group>"; };
+		9ED07ACC1FD4E808007223BA /* BMNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNavigationBar.m; sourceTree = "<group>"; };
+		9ED07ACD1FD4E808007223BA /* UIView+ExtendRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtendRegion.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +65,9 @@
 		9E2CE8891F5A4FB700830DC8 /* BMTNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				9E2CE8A81F5A53E700830DC8 /* Class */,
+				9ED07AC81FD4E808007223BA /* Classes */,
 				9E2CE88D1F5A4FB700830DC8 /* AppDelegate.h */,
 				9E2CE88E1F5A4FB700830DC8 /* AppDelegate.m */,
-				9EA2DC771F5A5D1100E7E0C3 /* BMNavigationBarHeader.h */,
 				9E2CE8901F5A4FB700830DC8 /* ViewController.h */,
 				9E2CE8911F5A4FB700830DC8 /* ViewController.m */,
 				9E2CE8931F5A4FB700830DC8 /* Main.storyboard */,
@@ -76,8 +75,6 @@
 				9E2CE8981F5A4FB700830DC8 /* LaunchScreen.storyboard */,
 				9E2CE89B1F5A4FB700830DC8 /* Info.plist */,
 				9E2CE88A1F5A4FB700830DC8 /* Supporting Files */,
-				9E41A3071FAFF54B003A8F78 /* BMNavigationBar.h */,
-				9E41A3081FAFF54B003A8F78 /* BMNavigationBar.m */,
 			);
 			path = BMTNavigationBar;
 			sourceTree = "<group>";
@@ -90,13 +87,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9E2CE8A81F5A53E700830DC8 /* Class */ = {
+		9ED07AC81FD4E808007223BA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9E2CE8A91F5A542000830DC8 /* UIView+ExtendRegion.h */,
-				9E2CE8AA1F5A542000830DC8 /* UIView+ExtendRegion.m */,
+				9ED07ACA1FD4E808007223BA /* BMNavigationBarHeader.h */,
+				9ED07AC91FD4E808007223BA /* BMNavigationBar.h */,
+				9ED07ACC1FD4E808007223BA /* BMNavigationBar.m */,
+				9ED07ACD1FD4E808007223BA /* UIView+ExtendRegion.h */,
+				9ED07ACB1FD4E808007223BA /* UIView+ExtendRegion.m */,
 			);
-			name = Class;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E2CE8AB1F5A542000830DC8 /* UIView+ExtendRegion.m in Sources */,
+				9ED07ACE1FD4E808007223BA /* UIView+ExtendRegion.m in Sources */,
 				9E2CE8921F5A4FB700830DC8 /* ViewController.m in Sources */,
 				9E2CE88F1F5A4FB700830DC8 /* AppDelegate.m in Sources */,
 				9E2CE88C1F5A4FB700830DC8 /* main.m in Sources */,
-				9E41A3091FAFF54B003A8F78 /* BMNavigationBar.m in Sources */,
+				9ED07ACF1FD4E808007223BA /* BMNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
