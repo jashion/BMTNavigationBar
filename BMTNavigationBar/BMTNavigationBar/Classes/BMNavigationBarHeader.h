@@ -36,4 +36,9 @@
  */
 #define NavigationBarInterItemSpace 6
 
+#define BM_ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define BM_ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define BM_NavigationBarHeight 44
+
 #endif /* BMNavigationBarHeader_h */

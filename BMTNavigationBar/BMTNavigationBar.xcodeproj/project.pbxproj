@@ -13,6 +13,18 @@
 		9E2CE8951F5A4FB700830DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8931F5A4FB700830DC8 /* Main.storyboard */; };
 		9E2CE8971F5A4FB700830DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8961F5A4FB700830DC8 /* Assets.xcassets */; };
 		9E2CE89A1F5A4FB700830DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2CE8981F5A4FB700830DC8 /* LaunchScreen.storyboard */; };
+		9E5F1C17202C328100D9FFEB /* BMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C16202C328100D9FFEB /* BMUtils.m */; };
+		9E5F1C1A202C32BD00D9FFEB /* UINavigationController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C19202C32BD00D9FFEB /* UINavigationController+Extend.m */; };
+		9E5F1C1D202C394F00D9FFEB /* UINavigationBar+BMExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C1C202C394F00D9FFEB /* UINavigationBar+BMExtend.m */; };
+		9E5F1C4D202C4DEF00D9FFEB /* ZGBarButtonTitle.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5F1C3C202C4DEF00D9FFEB /* ZGBarButtonTitle.strings */; };
+		9E5F1C4E202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C3E202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.m */; };
+		9E5F1C4F202C4DEF00D9FFEB /* NSObject+ZGRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C43202C4DEF00D9FFEB /* NSObject+ZGRuntime.m */; };
+		9E5F1C50202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C45202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.m */; };
+		9E5F1C51202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C47202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.m */; };
+		9E5F1C52202C4DEF00D9FFEB /* ZGBarButtonIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5F1C48202C4DEF00D9FFEB /* ZGBarButtonIcons.xcassets */; };
+		9E5F1C53202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F1C4A202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.m */; };
+		9E5F1C54202C4DEF00D9FFEB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9E5F1C4B202C4DEF00D9FFEB /* LICENSE */; };
+		9E5F1C55202C4DEF00D9FFEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E5F1C4C202C4DEF00D9FFEB /* README.md */; };
 		9ED07ACE1FD4E808007223BA /* UIView+ExtendRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED07ACB1FD4E808007223BA /* UIView+ExtendRegion.m */; };
 		9ED07ACF1FD4E808007223BA /* BMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED07ACC1FD4E808007223BA /* BMNavigationBar.m */; };
 /* End PBXBuildFile section */
@@ -28,6 +40,28 @@
 		9E2CE8961F5A4FB700830DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E2CE8991F5A4FB700830DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E2CE89B1F5A4FB700830DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5F1C15202C328100D9FFEB /* BMUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMUtils.h; sourceTree = "<group>"; };
+		9E5F1C16202C328100D9FFEB /* BMUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMUtils.m; sourceTree = "<group>"; };
+		9E5F1C18202C32BD00D9FFEB /* UINavigationController+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extend.h"; sourceTree = "<group>"; };
+		9E5F1C19202C32BD00D9FFEB /* UINavigationController+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extend.m"; sourceTree = "<group>"; };
+		9E5F1C1B202C394F00D9FFEB /* UINavigationBar+BMExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BMExtend.h"; sourceTree = "<group>"; };
+		9E5F1C1C202C394F00D9FFEB /* UINavigationBar+BMExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BMExtend.m"; sourceTree = "<group>"; };
+		9E5F1C3D202C4DEF00D9FFEB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ZGBarButtonTitle.strings"; sourceTree = "<group>"; };
+		9E5F1C3E202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZGFixSpace.m"; sourceTree = "<group>"; };
+		9E5F1C3F202C4DEF00D9FFEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ZGBarButtonTitle.strings; sourceTree = "<group>"; };
+		9E5F1C40202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZGLayoutConstraint.h"; sourceTree = "<group>"; };
+		9E5F1C41202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+ZGFixSpace.h"; sourceTree = "<group>"; };
+		9E5F1C42202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGBarButtonItemCustomView.h; sourceTree = "<group>"; };
+		9E5F1C43202C4DEF00D9FFEB /* NSObject+ZGRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZGRuntime.m"; sourceTree = "<group>"; };
+		9E5F1C44202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZGFixSpace.h"; sourceTree = "<group>"; };
+		9E5F1C45202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZGLayoutConstraint.m"; sourceTree = "<group>"; };
+		9E5F1C46202C4DEF00D9FFEB /* ZGNavBarItemSpceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGNavBarItemSpceMacro.h; sourceTree = "<group>"; };
+		9E5F1C47202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+ZGFixSpace.m"; sourceTree = "<group>"; };
+		9E5F1C48202C4DEF00D9FFEB /* ZGBarButtonIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZGBarButtonIcons.xcassets; sourceTree = "<group>"; };
+		9E5F1C49202C4DEF00D9FFEB /* NSObject+ZGRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZGRuntime.h"; sourceTree = "<group>"; };
+		9E5F1C4A202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGBarButtonItemCustomView.m; sourceTree = "<group>"; };
+		9E5F1C4B202C4DEF00D9FFEB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9E5F1C4C202C4DEF00D9FFEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9ED07AC91FD4E808007223BA /* BMNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationBar.h; sourceTree = "<group>"; };
 		9ED07ACA1FD4E808007223BA /* BMNavigationBarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationBarHeader.h; sourceTree = "<group>"; };
 		9ED07ACB1FD4E808007223BA /* UIView+ExtendRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtendRegion.m"; sourceTree = "<group>"; };
@@ -65,6 +99,7 @@
 		9E2CE8891F5A4FB700830DC8 /* BMTNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				9E5F1C3A202C4DEF00D9FFEB /* ZGNavigationBarItemFixSpace-master */,
 				9ED07AC81FD4E808007223BA /* Classes */,
 				9E2CE88D1F5A4FB700830DC8 /* AppDelegate.h */,
 				9E2CE88E1F5A4FB700830DC8 /* AppDelegate.m */,
@@ -87,6 +122,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9E5F1C3A202C4DEF00D9FFEB /* ZGNavigationBarItemFixSpace-master */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F1C3B202C4DEF00D9FFEB /* ZGNavigationBarItemFixSpace */,
+				9E5F1C4B202C4DEF00D9FFEB /* LICENSE */,
+				9E5F1C4C202C4DEF00D9FFEB /* README.md */,
+			);
+			name = "ZGNavigationBarItemFixSpace-master";
+			path = "../../../../../../../../Desktop/ZGNavigationBarItemFixSpace-master";
+			sourceTree = "<group>";
+		};
+		9E5F1C3B202C4DEF00D9FFEB /* ZGNavigationBarItemFixSpace */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F1C3C202C4DEF00D9FFEB /* ZGBarButtonTitle.strings */,
+				9E5F1C3E202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.m */,
+				9E5F1C40202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.h */,
+				9E5F1C41202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.h */,
+				9E5F1C42202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.h */,
+				9E5F1C43202C4DEF00D9FFEB /* NSObject+ZGRuntime.m */,
+				9E5F1C44202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.h */,
+				9E5F1C45202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.m */,
+				9E5F1C46202C4DEF00D9FFEB /* ZGNavBarItemSpceMacro.h */,
+				9E5F1C47202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.m */,
+				9E5F1C48202C4DEF00D9FFEB /* ZGBarButtonIcons.xcassets */,
+				9E5F1C49202C4DEF00D9FFEB /* NSObject+ZGRuntime.h */,
+				9E5F1C4A202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.m */,
+			);
+			path = ZGNavigationBarItemFixSpace;
+			sourceTree = "<group>";
+		};
 		9ED07AC81FD4E808007223BA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +161,12 @@
 				9ED07ACC1FD4E808007223BA /* BMNavigationBar.m */,
 				9ED07ACD1FD4E808007223BA /* UIView+ExtendRegion.h */,
 				9ED07ACB1FD4E808007223BA /* UIView+ExtendRegion.m */,
+				9E5F1C15202C328100D9FFEB /* BMUtils.h */,
+				9E5F1C16202C328100D9FFEB /* BMUtils.m */,
+				9E5F1C18202C32BD00D9FFEB /* UINavigationController+Extend.h */,
+				9E5F1C19202C32BD00D9FFEB /* UINavigationController+Extend.m */,
+				9E5F1C1B202C394F00D9FFEB /* UINavigationBar+BMExtend.h */,
+				9E5F1C1C202C394F00D9FFEB /* UINavigationBar+BMExtend.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -141,6 +213,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9E2CE87E1F5A4FB700830DC8;
 			productRefGroup = 9E2CE8881F5A4FB700830DC8 /* Products */;
@@ -157,9 +230,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5F1C54202C4DEF00D9FFEB /* LICENSE in Resources */,
+				9E5F1C4D202C4DEF00D9FFEB /* ZGBarButtonTitle.strings in Resources */,
 				9E2CE89A1F5A4FB700830DC8 /* LaunchScreen.storyboard in Resources */,
+				9E5F1C55202C4DEF00D9FFEB /* README.md in Resources */,
 				9E2CE8971F5A4FB700830DC8 /* Assets.xcassets in Resources */,
 				9E2CE8951F5A4FB700830DC8 /* Main.storyboard in Resources */,
+				9E5F1C52202C4DEF00D9FFEB /* ZGBarButtonIcons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +247,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5F1C51202C4DEF00D9FFEB /* UINavigationItem+ZGFixSpace.m in Sources */,
 				9ED07ACE1FD4E808007223BA /* UIView+ExtendRegion.m in Sources */,
 				9E2CE8921F5A4FB700830DC8 /* ViewController.m in Sources */,
+				9E5F1C1D202C394F00D9FFEB /* UINavigationBar+BMExtend.m in Sources */,
+				9E5F1C4F202C4DEF00D9FFEB /* NSObject+ZGRuntime.m in Sources */,
 				9E2CE88F1F5A4FB700830DC8 /* AppDelegate.m in Sources */,
+				9E5F1C4E202C4DEF00D9FFEB /* UIBarButtonItem+ZGFixSpace.m in Sources */,
+				9E5F1C1A202C32BD00D9FFEB /* UINavigationController+Extend.m in Sources */,
 				9E2CE88C1F5A4FB700830DC8 /* main.m in Sources */,
+				9E5F1C17202C328100D9FFEB /* BMUtils.m in Sources */,
+				9E5F1C50202C4DEF00D9FFEB /* UIView+ZGLayoutConstraint.m in Sources */,
+				9E5F1C53202C4DEF00D9FFEB /* ZGBarButtonItemCustomView.m in Sources */,
 				9ED07ACF1FD4E808007223BA /* BMNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +280,15 @@
 				9E2CE8991F5A4FB700830DC8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9E5F1C3C202C4DEF00D9FFEB /* ZGBarButtonTitle.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5F1C3D202C4DEF00D9FFEB /* zh-Hans */,
+				9E5F1C3F202C4DEF00D9FFEB /* en */,
+			);
+			name = ZGBarButtonTitle.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
